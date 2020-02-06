@@ -157,7 +157,7 @@ client.on("message", async message => {
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
             رابط سيرفر الدعم الفني : https://discord.gg/hsJBjVH
             **`);
-            message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
+            message.channel.sendEmbed(help); // https://discord.gg/hsJBjVH CODES .
     }
 });
 
