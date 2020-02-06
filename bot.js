@@ -85,7 +85,7 @@ client.on("message", async message => {
                                             let bco = new Discord.RichEmbed()
                                             .setColor("RANDOM")
                                             .setThumbnail(message.author.avatarURL)
-                                            .setTitle("Broadcast")
+                                            .setTitle("ArabEagles")
                                             .addField("Server", message.guild.name)
                                             .addField("Sender", message.author.username)
                                             .addField("Message", args);
@@ -157,7 +157,7 @@ client.on("message", async message => {
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
             رابط سيرفر الدعم الفني : https://discord.gg/hsJBjVH
             **`);
-            message.channel.sendEmbed(help); // https://discord.gg/hsJBjVH CODES .
+            message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
 });
 
